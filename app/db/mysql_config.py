@@ -1,11 +1,16 @@
-
+import os
 import mysql.connector
+from dotenv import load_dotenv
 
+# Load .env variables
+load_dotenv()
+
+# Connect using environment variables
 mysql_connection = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",      
-    password="123456",   
-    database="wealth_portfolio"      
+    host=os.getenv("MYSQL_HOST"),
+    user=os.getenv("MYSQL_USER"),
+    password=os.getenv("MYSQL_PASSWORD"),
+    database=os.getenv("MYSQL_DB")
 )
 
 cursor = mysql_connection.cursor(dictionary=True)
