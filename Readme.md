@@ -184,3 +184,7 @@ POST /api/query
    - "List all customers from New York"
    - "Show sales data for the last quarter"
    - "Find employees with salary above average"
+
+ ### work flow
+ ![image](https://github.com/user-attachments/assets/c2c1e39b-5250-41bc-be92-ba12dfbbe88f)
+
