@@ -31,7 +31,7 @@ The user has asked this question:
 
 They want the answer in format: {format}
 
-👉 Respond according to format:
+ Respond according to format:
 - If format is "text", return a plain natural language response.
 - If format is "table", return a JSON object like:
   {{"type": "table", "data": [{{"column1": "value", "column2": "value"}}]}}

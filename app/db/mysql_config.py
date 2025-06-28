@@ -31,7 +31,7 @@ def seed_transactions():
 
     cursor.executemany(insert_query, transactions)
     mysql_connection.commit()
-    print("✅ Sample transactions inserted.")
+    print("Sample transactions inserted.")
 
 
 if __name__ == "__main__":
