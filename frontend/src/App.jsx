@@ -7,7 +7,7 @@ function App() {
 
   const handleQuery = async (question) => {
     try {
-      const res = await fetch('http://localhost:8000/query', {  // change this to your backend URL
+      const res = await fetch('http://localhost:8000/query', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
